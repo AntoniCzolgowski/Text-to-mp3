@@ -26,7 +26,7 @@ def safe_filename(text):
     return text
 
 #docx
-doc = Document("/home/czolgu/python data science/Wordup.docx")
+doc = Document("") #<- place for the file path
 
 polish_audio_files = []
 english_audio_files = []
